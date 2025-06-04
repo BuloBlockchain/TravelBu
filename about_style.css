@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  background-color: #008CBA;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+}
+
+nav a:hover {
+  background-color: #006f94;
+  border-radius: 4px;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.company-info {
+  margin-bottom: 40px;
+}
+
+.team-member {
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin: 0 0 6px 0;
+  color: #008CBA;
+}

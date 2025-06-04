@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('Thailand.jpg'); /* Replace with your image filename */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: rgba(0, 140, 186, 0.85);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+}
+
+nav button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: rgba(0, 140, 186, 0.85);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+footer .social-media {
+  margin-bottom: 8px;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .social-media a:hover {
+  text-decoration: underline;
+}
